@@ -1,0 +1,32 @@
+body {
+  box-sizing: border-box;
+}
+
+.header {
+  border: 2px solid #000;
+}
+
+.wrapper {
+  /* float: right; */
+  margin: 0;
+  width: 100%;
+  margin-right: -300px;
+}
+
+.content {
+  /* float: left; */
+  border: 2px solid #000;
+  margin-right: 300px;
+}
+
+.sidebar {
+  float: right;
+  border: 2px solid #000;
+  width: 296px;
+  height: auto;
+}
+
+.footer {
+  border: 2px solid #000;
+  clear: both;
+}
